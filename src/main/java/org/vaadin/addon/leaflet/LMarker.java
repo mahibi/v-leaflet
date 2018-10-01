@@ -34,7 +34,7 @@ public class LMarker extends AbstractLeafletLayer {
 	}
 
     @Override
-    protected LeafletMarkerState getState() {
+    public LeafletMarkerState getState() {
         return (LeafletMarkerState) super.getState();
     }
 
